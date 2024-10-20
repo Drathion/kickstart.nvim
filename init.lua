@@ -270,6 +270,9 @@ require('lazy').setup({
   -- Then, because we use the `config` key, the configuration only runs
   -- after the plugin has been loaded:
   --  config = function() ... end
+  {
+    'github/copilot.vim',
+  },
 
   { -- Useful plugin to show you pending keybinds.
     'folke/which-key.nvim',
